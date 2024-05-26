@@ -1,0 +1,67 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    float: left;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 15px;
+    border-bottom: 1px solid #555;
+    transition: background-color 0.3s;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 18px;
+    display: block;
+    transition: color 0.3s;
+}
+
+.sidebar li:hover {
+    background-color: #555;
+}
+
+.sidebar li:hover a {
+    color: #fff;
+}
+
+/* Style the main content */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    min-height: 400px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        float: none;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
