@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-size: 16px; /* Increased font size */
+}
+
+.container-large {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+/* Increased font size and made labels bold */
+.container-large label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-large input[type="text"], 
+.container-large input[type="tel"], 
+.container-large input[type="email"], 
+.container-large textarea {
+    font-size: 18px;
+    padding: 10px; /* Increased padding */
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 4px; /* Added border-radius */
+    width: 100%; /* Added width */
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+.uploadButton, .actionButton, .chooseFileButton {
+    padding: 8px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.uploadButton, .chooseFileButton {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+.uploadButton:hover, .chooseFileButton:hover {
+    background-color: #0056b3;
+}
+
+.actionButton {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.actionButton:hover {
+    background-color: #218838;
+}
+
+.required-message, .error-message {
+    color: red;
+    font-size: 0.8em;
+    display: none;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.radio-buttons input[type="radio"] {
+    margin-right: 10px;
+}
